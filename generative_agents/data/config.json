@@ -1,0 +1,34 @@
+{
+    "agent": {
+        "percept": {
+            "mode": "box",
+            "vision_r": 8,
+            "att_bandwidth": 8
+        },
+        "schedule": {
+            "max_try": 5,
+            "diversity": 5
+        },
+        "think": {
+            "llm": {
+                "provider": "openai",
+                "model": "Qwen/Qwen3-14B",
+                "base_url": "https://api.siliconflow.cn/v1",
+                "api_key": "sk-auujmoemyzzafizjtxsxksvevfuxzexvjdeqdoikmlxiwhyp"
+            },
+            "interval": 1000,
+            "poignancy_max": 150,
+            "timeout": 10
+        },
+        "chat_iter": 4,
+        "associate": {
+            "embedding": {
+                "provider": "openai",
+                "model": "BAAI/bge-m3",
+                "base_url": "https://api.siliconflow.cn/v1",
+                "api_key": "sk-auujmoemyzzafizjtxsxksvevfuxzexvjdeqdoikmlxiwhyp"
+            },
+            "retention": 8
+        }
+    }
+}
