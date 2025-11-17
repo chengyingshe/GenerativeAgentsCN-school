@@ -2,6 +2,10 @@
 
 本项目基于[GenerativeAgentsCN](https://github.com/x-glacier/GenerativeAgentsCN)项目进行二次开发，主要工作是修改了场景地图和角色定义，并编写了较为详细的教程文档：详见`docs/`文件夹中的[tutorial.md](docs/tutorial.md)
 
+![1763363369973](docs/resources/1763363369973.png)
+
+![1763363387708](docs/resources/1763363387708.png)
+
 ## 1. 准备工作
 
 ### 1.1 获取代码：
