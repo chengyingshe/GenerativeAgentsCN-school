@@ -51,3 +51,8 @@
 ![1763309980624](resources/1763309980624.png)
 
 ![1763310053479](resources/1763310053479.png)
+
+## 项目示例
+
+详见文件夹[Tiled-school](../Tiled-school)，使用Tiled导入文件夹中的项目文件`school.tiled-project`
+
